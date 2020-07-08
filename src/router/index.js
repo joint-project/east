@@ -1,24 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-const Home = () =>import(/* webpackChunkName: "group-foo" */ 'Pages/home/index.vue')
-const Community = () =>import(/* webpackChunkName: "group-foo" */ 'Pages/community/index.vue')
+import routes from './routes'
 Vue.use(VueRouter)
-
-  const routes = [
-  {path:'/',redirect:'/home'},
-  // {path:'/login',component:Login},
-  {
-    path: '/',
-    component: Home,
-    // children:[
-    //   {path:'/home',component:Home},
-    // ],
-  },
-  {
-    path: '/community',
-    component: Community
-  }
-]
 
 const router = new VueRouter({
   mode: 'history',

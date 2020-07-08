@@ -58,6 +58,8 @@ export default {
 
 <style lang='scss' scoped>
  .van-tabbar{
+    height: .45rem;
+    padding-top: .03rem;
     img{
       height: .24rem;
       width: .24rem;

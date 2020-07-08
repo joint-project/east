@@ -8,6 +8,7 @@
 
 <script>
 
+// 底部导航
 import TabBarComp from 'Comp/TabBarComp'
 export default {
   components: {

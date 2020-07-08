@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    社区
+      拍卖
   </div>
 </template>
 
